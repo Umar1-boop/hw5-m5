@@ -1,6 +1,8 @@
 import './recipes.scss'
 import food from '../../img/food.png'
 import food2 from '../../img/food2.png'
+import SimpleRecipes from './companets/SimpleRecipes/SimpleRecipes'
+
 
 export default function RecipesPage() {
   return (
@@ -26,6 +28,10 @@ export default function RecipesPage() {
         </div>
        <div className="recipe-photo"><img src={food} alt="Japanese fried rice" /></div>
       </section>
+      <div>
+        <SimpleRecipes />
+      </div>
     </main>
   )
 }
+

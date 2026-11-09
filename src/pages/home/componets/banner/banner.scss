@@ -12,3 +12,20 @@
     border-radius: 28px;
 }
 
+.swiper-button-next{
+    color: black !important;
+    transition: .2s;
+}
+
+.swiper-button-next:hover{
+    transform: scale(1.2);
+}
+
+.swiper-button-prev{
+    color: black !important;
+    transition: .2s;
+}
+
+.swiper-button-prev:hover{
+    transform: scale(1.2);
+}

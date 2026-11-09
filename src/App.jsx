@@ -7,6 +7,7 @@ import AboutUsPage from "./pages/aboutUs/AboutUsPage";
 import ByCreate from "./pages/byCreate/ByCreate";
 import Header from "./feutures/Header/Header";
 import Footer from "./feutures/footer/Footer";
+import Detal from "./pages/detal/Detal";
 import './App.css'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/contact-page" element={<ContactPage />} />
         <Route path="/aboutus-page" element={<AboutUsPage />} />
         <Route path="/by-create" element={<ByCreate />} />
+        <Route path="/recipes-page/:id" element={<Detal />} />
       </Routes>
       <Footer />
     </BrowserRouter> 
