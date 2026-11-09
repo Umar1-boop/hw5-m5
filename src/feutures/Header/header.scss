@@ -1,0 +1,26 @@
+.header{
+    padding: 40px 0;
+    border-bottom: 1px solid #0000001a;
+}
+
+.header_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.header_nav a{
+    transition: .3s;
+}
+
+.header_nav a:hover{
+    color: red;
+    transform: scale(1.2);
+}

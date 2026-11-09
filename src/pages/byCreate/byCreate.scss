@@ -1,0 +1,66 @@
+
+.creator-page {
+    min-height: 65vh;
+    display: grid;
+    place-items: center;
+    padding: 65px 16px 90px;
+}
+
+.creator-card {
+    width: min(100%, 520px);
+    text-align: center;
+    padding: 48px;
+    border: 1px solid #eee;
+    border-radius: 28px;
+    box-shadow: 0 15px 50px #0000000a;
+}
+
+.creator-photo {
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.creator-label {
+    display: block;
+    color: #ff7967;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.creator-card h1 {
+    font-size: 38px;
+    margin: 12px 0 7px;
+}
+
+.creator-role {
+    color: #777;
+}
+
+.creator-line {
+    height: 1px;
+    background: #eee;
+    margin: 28px 0;
+}
+
+.creator-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.creator-info span {
+    color: #888;
+}
+
+.creator-description {
+    color: #777;
+    line-height: 1.7;
+    margin-top: 24px;
+}
+
